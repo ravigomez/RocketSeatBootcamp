@@ -6,7 +6,7 @@ import databaseConfig from '../config/database';
 
 const models = [User];
 
-class Databese {
+class Database {
   constructor() {
     this.init();
   }
@@ -18,4 +18,4 @@ class Databese {
   }
 }
 
-export default new Databese();
+export default new Database();
